@@ -13,11 +13,11 @@ import type {
 } from '@/types'
 
 export const siteConfig = {
-  name: 'Akhil Durga Prasad',
-  title: 'Embedded Systems Engineer & AI Explorer',
+  name: 'Bandi Akhil Durga Prasad',
+  title: 'Learning by Building | Embedded Systems & AI',
   description:
-    'Portfolio of Akhil Durga Prasad — Embedded Systems Engineer, IoT Enthusiast, Game Developer, and AI Explorer.',
-  url: 'https://akhilportfolio.vercel.app',
+    'Portfolio of Bandi Akhil Durga Prasad — ECE student at ANITS exploring embedded systems, IoT, AI, game development, and web technologies.',
+  url: 'https://portfolio-wheat-theta-74.vercel.app',
   ogImage: '/og.jpg',
 }
 
@@ -32,203 +32,221 @@ export const navLinks: NavLink[] = [
 ]
 
 export const rotatingSubtitles: string[] = [
-  'Embedded Systems Engineer',
+  'Electronics & Communication Engineer',
+  'Embedded Systems Explorer',
   'IoT Enthusiast',
   'Game Developer',
-  'AI Explorer',
-  'Problem Solver',
+  'AI-assisted Builder',
 ]
 
 export const skills: Skill[] = [
   { name: 'C', category: 'Programming', icon: 'Code2' },
-  { name: 'C++', category: 'Programming', icon: 'Code2' },
+  { name: 'Java', category: 'Programming', icon: 'Code2' },
   { name: 'Python', category: 'Programming', icon: 'FileJson' },
-  { name: 'Java', category: 'Programming', icon: 'FileJson' },
   { name: 'JavaScript', category: 'Programming', icon: 'FileJson' },
   { name: 'HTML', category: 'Programming', icon: 'FileCode' },
   { name: 'CSS', category: 'Programming', icon: 'FileCode' },
-  { name: 'SQL', category: 'Programming', icon: 'Database' },
-  { name: 'Unity', category: 'Game Development', icon: 'Gamepad2' },
-  { name: 'Godot', category: 'Game Development', icon: 'Gamepad2' },
+  { name: 'C++', category: 'Programming', icon: 'FileCode' },
   { name: 'Arduino', category: 'Embedded Systems', icon: 'Cpu' },
-  { name: 'ESP32', category: 'Embedded Systems', icon: 'Cpu' },
   { name: 'IoT', category: 'Embedded Systems', icon: 'Wifi' },
+  { name: 'Embedded Systems', category: 'Embedded Systems', icon: 'Cpu' },
+  { name: 'ESP32', category: 'Embedded Systems', icon: 'Zap' },
+  { name: 'Embedded C', category: 'Embedded Systems', icon: 'Terminal' },
   { name: 'Electronics', category: 'Embedded Systems', icon: 'Zap' },
+  { name: 'Game Development', category: 'Game Development', icon: 'Gamepad2' },
+  { name: 'Web Development', category: 'Game Development', icon: 'Globe' },
+  { name: 'AI-assisted Dev', category: 'AI', icon: 'Brain' },
   { name: 'Machine Learning', category: 'AI', icon: 'Brain' },
   { name: 'Prompt Engineering', category: 'AI', icon: 'MessageSquare' },
-  { name: 'Computer Vision', category: 'AI', icon: 'Eye' },
-  { name: 'Git', category: 'Tools', icon: 'GitBranch' },
-  { name: 'GitHub', category: 'Tools', icon: 'Github' },
   { name: 'VS Code', category: 'Tools', icon: 'Terminal' },
-  { name: 'Linux', category: 'Tools', icon: 'Server' },
+  { name: 'GitHub', category: 'Tools', icon: 'Github' },
+  { name: 'Git', category: 'Tools', icon: 'GitBranch' },
+  { name: 'ChatGPT', category: 'Tools', icon: 'MessageSquare' },
+  { name: 'Claude', category: 'Tools', icon: 'MessageSquare' },
+  { name: 'Cursor', category: 'Tools', icon: 'Terminal' },
 ]
 
 export const timeline: TimelineItem[] = [
   {
-    year: '2022 - 2026',
-    title: 'ANITS',
-    subtitle: 'Electronics & Communication Engineering',
+    year: '2025',
+    title: 'Started Exploring Embedded Systems & IoT',
+    subtitle: 'Discovery Phase',
     description:
-      'Pursuing a B.Tech in Electronics and Communication Engineering, building a strong foundation in hardware, embedded systems, and signal processing.',
-    type: 'education',
-  },
-  {
-    year: '2024',
-    title: 'Embedded Systems with IoT',
-    subtitle: 'Internship',
-    description:
-      'Hands-on internship focused on embedded systems design, microcontroller programming, and IoT integration for real-world applications.',
-    type: 'internship',
-  },
-  {
-    year: '2024 - Present',
-    title: 'AI & Game Development',
-    subtitle: 'Current Learning',
-    description:
-      'Exploring artificial intelligence, machine learning, Unity, and Godot to build intelligent systems and immersive interactive experiences.',
+      'Began my journey into embedded systems and IoT, fascinated by how software interacts with hardware to create real-world impact.',
     type: 'learning',
   },
   {
-    year: '2025 - Present',
-    title: 'Full Stack Development',
-    subtitle: 'Current Learning',
+    year: '2025',
+    title: 'Discovered Arduino & Electronics',
+    subtitle: 'Hands-on Hardware',
     description:
-      'Expanding expertise into full-stack web development with modern frameworks, databases, and cloud deployment.',
+      'Started working with Arduino microcontrollers, sensors, and basic electronics — building my first circuits and firmware.',
+    type: 'learning',
+  },
+  {
+    year: '2025',
+    title: 'Built Software Experiments',
+    subtitle: 'Programming Foundations',
+    description:
+      'Explored software development with Python and Java, building small tools and utilities to strengthen my programming fundamentals.',
+    type: 'learning',
+  },
+  {
+    year: '2025',
+    title: 'Started Game Development',
+    subtitle: 'Creative Coding',
+    description:
+      'Dove into game development, building a 2D physics playground from scratch to understand game loops, collision, and rendering.',
+    type: 'learning',
+  },
+  {
+    year: '2025',
+    title: 'Web & AI-assisted Development',
+    subtitle: 'Full Stack Exploration',
+    description:
+      'Learning web development while leveraging AI tools as a pair programmer for faster feedback loops and cleaner code.',
+    type: 'learning',
+  },
+  {
+    year: 'Future',
+    title: 'The Next Thing Worth Building',
+    subtitle: 'Always Learning',
+    description:
+      'Every project is a testbed. Curiosity first, opinions second. Always looking for the next thing worth building.',
     type: 'learning',
   },
 ]
 
 export const experience: ExperienceItem[] = [
   {
-    company: 'Embedded Systems Internship',
-    role: 'IoT Intern',
-    period: '2024',
+    company: 'IoT Sense',
+    role: 'Embedded Systems Builder',
+    period: '2025',
     description:
-      'Developed IoT solutions using ESP32 and Arduino, integrated sensors, and built real-time monitoring dashboards.',
+      'Built a sensor node streaming environmental data from Arduino to a live dashboard. Learned that hardware reliability is a design problem, not just a coding one.',
     gradient: 'from-sky-400/20 to-blue-600/20',
   },
   {
-    company: 'Academic Projects',
-    role: 'Embedded Systems Developer',
-    period: '2023 - Present',
+    company: 'Pixel Playground',
+    role: 'Game Developer',
+    period: '2025',
     description:
-      'Built multiple embedded systems projects including smart home automation, environmental monitoring, and robotic control systems.',
+      'Created a 2D game from scratch with custom physics, entity systems, and collision detection. Discovered that constraints breed creativity.',
     gradient: 'from-purple-400/20 to-pink-600/20',
   },
   {
-    company: 'Game Development',
-    role: 'Indie Game Developer',
-    period: '2024 - Present',
+    company: 'AI Study Buddy',
+    role: 'AI-assisted Builder',
+    period: '2025',
     description:
-      'Creating interactive games and experiences using Unity and Godot engines, exploring VR and interactive storytelling.',
+      'Built an AI pipeline that transforms messy notes into structured summaries and flashcards. Learned that AI shines when it removes friction from existing workflows.',
     gradient: 'from-emerald-400/20 to-teal-600/20',
   },
 ]
 
 export const stats: Stat[] = [
-  { value: 15, label: 'Projects Completed', suffix: '+' },
-  { value: 8, label: 'Programming Languages', suffix: '+' },
-  { value: 500, label: 'Hours of Coding', suffix: '+' },
-  { value: 12, label: 'Technologies Learned', suffix: '+' },
+  { value: 6, label: 'Projects Built', suffix: '+' },
+  { value: 4, label: 'Domains Explored', suffix: '' },
+  { value: 200, label: 'Hours Building', suffix: '+' },
+  { value: 10, label: 'Technologies Used', suffix: '+' },
 ]
 
 export const testimonials: Testimonial[] = [
   {
-    name: 'Dr. R. Venkateswara Rao',
-    role: 'Professor',
-    company: 'ANITS',
+    name: 'Learning by Building',
+    role: 'Personal Philosophy',
+    company: 'Every Project',
     quote:
-      'Akhil demonstrates exceptional aptitude in embedded systems and a genuine passion for technology. His project work consistently exceeds expectations.',
-    initials: 'VR',
+      'I learn by building. Every project is an opportunity to explore a new technology — whether it is hardware, software, AI, or game development.',
+    initials: 'AD',
   },
   {
-    name: 'Tech Mentor',
-    role: 'IoT Internship Supervisor',
-    company: 'Embedded Systems Lab',
+    name: 'I Chase Experience',
+    role: 'Not a Title',
+    company: 'ECE Student at ANITS',
     quote:
-      'One of the most dedicated learners I have mentored. His ability to grasp complex hardware-software integration concepts is remarkable.',
-    initials: 'TM',
+      'From embedded systems and IoT to software, AI, game development, and web technologies — I do not chase a specific title. I chase experience.',
+    initials: 'AD',
   },
   {
-    name: 'Project Collaborator',
-    role: 'Team Member',
-    company: 'AI Research Group',
+    name: 'Curiosity First',
+    role: 'Hands-on Learner',
+    company: 'Always Building',
     quote:
-      'Working with Akhil on AI projects has been incredible. He brings both technical depth and creative problem-solving to every challenge.',
-    initials: 'PC',
+      'Concepts stick when they ship. I pick up new tech by making something small with it. Move from idea to prototype fast, then refine what matters.',
+    initials: 'AD',
   },
 ]
 
 export const certificates: Certificate[] = [
   {
-    title: 'Embedded Systems Design',
-    issuer: 'NPTEL',
-    date: '2024',
+    title: 'Electronics & Communication Engg',
+    issuer: 'ANITS',
+    date: '2022 - 2026',
     gradient: 'from-sky-500/30 to-blue-500/30',
   },
   {
-    title: 'IoT Fundamentals',
-    issuer: 'Cisco Networking Academy',
-    date: '2024',
+    title: 'Embedded Systems & IoT',
+    issuer: 'Self-directed Learning',
+    date: '2025',
     gradient: 'from-blue-500/30 to-indigo-500/30',
   },
   {
-    title: 'Python for Data Science',
-    issuer: 'NPTEL',
-    date: '2023',
+    title: 'Game Development',
+    issuer: 'Self-directed Learning',
+    date: '2025',
     gradient: 'from-purple-500/30 to-pink-500/30',
   },
   {
-    title: 'Machine Learning Basics',
-    issuer: 'Stanford Online (Coursera)',
-    date: '2024',
+    title: 'AI-assisted Development',
+    issuer: 'Self-directed Learning',
+    date: '2025',
     gradient: 'from-emerald-500/30 to-teal-500/30',
   },
 ]
 
 export const gallery: GalleryItem[] = [
-  { title: 'IoT Workshop Demo', category: 'IoT', gradient: 'from-sky-500/20 to-blue-600/20' },
-  { title: 'Embedded Systems Lab', category: 'Embedded', gradient: 'from-purple-500/20 to-pink-600/20' },
-  { title: 'Game Development Showcase', category: 'Games', gradient: 'from-emerald-500/20 to-teal-600/20' },
-  { title: 'AI Model Training Session', category: 'AI', gradient: 'from-orange-500/20 to-red-600/20' },
-  { title: 'Circuit Design Project', category: 'Electronics', gradient: 'from-cyan-500/20 to-blue-600/20' },
-  { title: 'Hackathon Presentation', category: 'Web', gradient: 'from-violet-500/20 to-purple-600/20' },
+  { title: 'Arduino Sensor Setup', category: 'IoT', gradient: 'from-sky-500/20 to-blue-600/20' },
+  { title: 'Game Dev Prototype', category: 'Games', gradient: 'from-purple-500/20 to-pink-600/20' },
+  { title: 'Circuit Design Lab', category: 'Electronics', gradient: 'from-cyan-500/20 to-blue-600/20' },
+  { title: 'AI Study Tool Demo', category: 'AI', gradient: 'from-orange-500/20 to-red-600/20' },
+  { title: 'Web Dev Experiment', category: 'Web', gradient: 'from-violet-500/20 to-purple-600/20' },
+  { title: 'Hardware Prototype', category: 'Embedded', gradient: 'from-emerald-500/20 to-teal-600/20' },
 ]
 
 export const projects: Project[] = [
   {
-    id: 'ai-iot-dashboard',
-    title: 'AI-Powered IoT Dashboard',
+    id: 'iot-sense',
+    title: 'IoT Sense',
     description:
-      'A real-time monitoring dashboard that uses machine learning to predict equipment failures and optimize energy consumption across IoT sensor networks.',
-    category: 'AI',
-    tags: ['Python', 'TensorFlow', 'ESP32', 'React', 'MQTT'],
+      'A sensor node that streams environmental data from an Arduino to a small dashboard. Features a firmware layer that batches readings and a lightweight web view for instant readability.',
+    category: 'IoT',
+    tags: ['Arduino', 'C', 'IoT', 'MQTT'],
     gradient: 'from-sky-500/30 via-blue-500/30 to-indigo-500/30',
     image: '/projects/placeholder-1.jpg',
     liveUrl: '#',
     githubUrl: '#',
-    caseStudyUrl: '#',
     featured: true,
   },
   {
-    id: 'embedded-monitor',
-    title: 'Embedded Systems Monitor',
+    id: 'pixel-playground',
+    title: 'Pixel Playground',
     description:
-      'A comprehensive monitoring system for embedded devices featuring real-time telemetry, over-the-air updates, and automated diagnostics.',
-    category: 'Embedded',
-    tags: ['C++', 'Arduino', 'ESP32', 'Sensors', 'WebSocket'],
+      'A small 2D game exploring physics, input, and game loop fundamentals. Built from scratch with a custom loop, entity system, and collision layer — kept intentionally small to stay legible.',
+    category: 'Games',
+    tags: ['Python', 'Game Loop', 'Physics', '2D'],
     gradient: 'from-emerald-500/30 via-teal-500/30 to-cyan-500/30',
     image: '/projects/placeholder-2.jpg',
     liveUrl: '#',
     githubUrl: '#',
   },
   {
-    id: 'unity-game-prototype',
-    title: 'Unity Game Prototype',
+    id: 'ai-study-buddy',
+    title: 'AI Study Buddy',
     description:
-      'An immersive 3D game prototype built with Unity, featuring dynamic environments, AI-driven NPCs, and physics-based interactions.',
-    category: 'Games',
-    tags: ['Unity', 'C#', 'Blender', 'Shader Graph'],
+      'An AI-powered assistant that turns messy class notes into structured summaries and flashcards. Uses an AI pipeline to clean notes, extract key ideas, and generate study sets on demand.',
+    category: 'AI',
+    tags: ['JavaScript', 'AI', 'Web', 'NLP'],
     gradient: 'from-purple-500/30 via-pink-500/30 to-rose-500/30',
     image: '/projects/placeholder-3.jpg',
     liveUrl: '#',
@@ -236,24 +254,24 @@ export const projects: Project[] = [
     caseStudyUrl: '#',
   },
   {
-    id: 'smart-home-hub',
-    title: 'Smart Home Hub',
+    id: 'arduino-automation',
+    title: 'Arduino Home Automation',
     description:
-      'Centralized IoT controller for home automation with voice control, energy monitoring, and adaptive lighting systems.',
-    category: 'IoT',
-    tags: ['ESP32', 'MQTT', 'Python', 'React Native'],
+      'An IoT-based home automation prototype using Arduino, controlling lights and fans via Bluetooth and sensor-triggered logic.',
+    category: 'Embedded',
+    tags: ['Arduino', 'Embedded C', 'Bluetooth', 'Sensors'],
     gradient: 'from-orange-500/30 via-amber-500/30 to-yellow-500/30',
     image: '/projects/placeholder-4.jpg',
     liveUrl: '#',
     githubUrl: '#',
   },
   {
-    id: 'cv-recognition',
-    title: 'Computer Vision Recognition',
+    id: 'web-experiments',
+    title: 'Web Development Experiments',
     description:
-      'Real-time object detection and recognition system using deep learning, optimized for edge deployment on embedded devices.',
-    category: 'AI',
-    tags: ['Python', 'OpenCV', 'YOLO', 'TensorFlow Lite'],
+      'A collection of small web projects exploring HTML, CSS, JavaScript, and responsive design patterns. Each experiment focuses on one concept.',
+    category: 'Web',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
     gradient: 'from-rose-500/30 via-pink-500/30 to-fuchsia-500/30',
     image: '/projects/placeholder-5.jpg',
     liveUrl: '#',
@@ -263,49 +281,49 @@ export const projects: Project[] = [
     id: 'portfolio-website',
     title: 'This Portfolio',
     description:
-      'Awwwards-inspired portfolio built with Next.js, Three.js, and Framer Motion featuring immersive 3D visuals and premium interactions.',
+      'A premium portfolio built with Next.js, Three.js, and Framer Motion. Features immersive 3D visuals, glassmorphism, and interactive CLI terminal.',
     category: 'Web',
     tags: ['Next.js', 'Three.js', 'Framer Motion', 'Tailwind CSS'],
     gradient: 'from-sky-500/30 via-indigo-500/30 to-violet-500/30',
     image: '/projects/placeholder-6.jpg',
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://portfolio-wheat-theta-74.vercel.app',
+    githubUrl: 'https://github.com/akhilboss118-an/portfolio',
   },
 ]
 
 export const blogPosts: BlogPost[] = [
   {
-    title: 'Getting Started with ESP32 and MQTT',
+    title: 'Why I Learn by Building',
     excerpt:
-      'A comprehensive guide to setting up ESP32 microcontrollers with MQTT protocol for IoT applications.',
-    date: '2024-12-15',
-    category: 'IoT',
+      'Concepts stick when they ship. Here is why I pick up new tech by making something small with it rather than reading tutorials.',
+    date: '2025-06-01',
+    category: 'Philosophy',
     gradient: 'from-sky-500/30 to-blue-500/30',
-    slug: 'esp32-mqtt-guide',
+    slug: 'learn-by-building',
   },
   {
-    title: 'Why Embedded Systems Engineers Should Learn AI',
+    title: 'Hardware Reliability Is a Design Problem',
     excerpt:
-      'Exploring the convergence of embedded systems and artificial intelligence, and how it creates new possibilities.',
-    date: '2024-11-20',
-    category: 'AI',
+      'What building an IoT sensor node taught me about timing, power management, and why hardware bugs are fundamentally different from software bugs.',
+    date: '2025-05-15',
+    category: 'Embedded',
     gradient: 'from-purple-500/30 to-pink-500/30',
-    slug: 'embedded-ai-convergence',
+    slug: 'hardware-reliability-design',
   },
   {
-    title: 'Building Games with Godot: A Beginner Perspective',
+    title: 'AI as a Pair Programmer',
     excerpt:
-      'My journey learning Godot game engine and the first game I built. Tips for other beginners.',
-    date: '2024-10-05',
-    category: 'Games',
+      'How I use AI tools for faster feedback loops, cleaner code, and better explanations — without letting it replace the understanding.',
+    date: '2025-04-20',
+    category: 'AI',
     gradient: 'from-emerald-500/30 to-teal-500/30',
-    slug: 'godot-beginner-journey',
+    slug: 'ai-pair-programmer',
   },
 ]
 
 export const socialLinks: SocialLink[] = [
-  { name: 'GitHub', url: 'https://github.com', icon: 'Github' },
-  { name: 'LinkedIn', url: 'https://linkedin.com', icon: 'Linkedin' },
+  { name: 'GitHub', url: 'https://github.com/akhilboss118-an', icon: 'Github' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/in/akhilboss118-an', icon: 'Linkedin' },
   { name: 'Email', url: 'mailto:akhil@example.com', icon: 'Mail' },
   { name: 'Instagram', url: 'https://instagram.com', icon: 'Instagram' },
 ]

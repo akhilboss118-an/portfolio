@@ -62,7 +62,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 1.2 }}
               className="text-muted-foreground max-w-md leading-relaxed"
             >
-              Building at the intersection of hardware and intelligence — from embedded systems and IoT to AI, games, and beyond.
+              I learn by building. Every project is an opportunity to explore a new technology — whether it&apos;s hardware, software, AI, or game development.
             </motion.p>
 
             <motion.div

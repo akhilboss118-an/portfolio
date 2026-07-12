@@ -25,10 +25,10 @@ function ProfilePlaceholder({ className }: { className?: string }) {
 
 export function About() {
   const story = [
-    "My journey started with curiosity.",
-    "Every project became an opportunity to learn.",
-    "I love building things—from embedded systems and IoT to AI, software, and game development.",
-    "For me, technology isn't just coding. It's creativity brought to life.",
+    "I chase experience, not a title.",
+    "I'm an ECE student who enjoys exploring technology without limiting myself to one field.",
+    "From embedded systems and IoT to software, AI, game development, and web technologies — every project is an opportunity to experiment, solve problems, and learn something new.",
+    "Whether it's designing hardware, developing software, debugging with AI, or building complete products — I enjoy the process of turning ideas into reality.",
   ]
 
   return (
