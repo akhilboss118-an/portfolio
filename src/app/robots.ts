@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: 'https://akhilportfolio.vercel.app/sitemap.xml',
+    sitemap: 'https://portfolio-wheat-theta-74.vercel.app/sitemap.xml',
   }
 }

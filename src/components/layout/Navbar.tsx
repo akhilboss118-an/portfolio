@@ -5,12 +5,16 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Moon, Sun, Menu, X } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import { useScrollDirection } from '@/hooks/useScrollDirection'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
 import { navLinks } from '@/lib/constants'
 
 export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const isVisible = useScrollDirection()
   const { theme, setTheme } = useTheme()
+  const pathname = usePathname()
+  const isHome = pathname === '/'
 
   const scrollTo = (href: string) => {
     const id = href.replace('#', '')
@@ -35,15 +39,29 @@ export function Navbar() {
           </button>
 
           <div className="hidden md:flex items-center gap-1">
-            {navLinks.map((link) => (
-              <button
-                key={link.href}
-                onClick={() => scrollTo(link.href)}
+              {isHome && navLinks.map((link) => (
+                <button
+                  key={link.href}
+                  onClick={() => scrollTo(link.href)}
+                  className="relative px-3 py-2 text-sm rounded-full text-muted-foreground hover:text-foreground transition-colors duration-300"
+                >
+                  {link.label}
+                </button>
+              ))}
+              {!isHome && (
+                <Link
+                  href="/"
+                  className="relative px-3 py-2 text-sm rounded-full text-muted-foreground hover:text-foreground transition-colors duration-300"
+                >
+                  Home
+                </Link>
+              )}
+              <Link
+                href="/blog"
                 className="relative px-3 py-2 text-sm rounded-full text-muted-foreground hover:text-foreground transition-colors duration-300"
               >
-                {link.label}
-              </button>
-            ))}
+                Blog
+              </Link>
           </div>
 
           <div className="flex items-center gap-2">
@@ -75,7 +93,7 @@ export function Navbar() {
             exit={{ opacity: 0, y: -20 }}
             className="fixed top-20 left-4 right-4 z-50 glass rounded-2xl p-4 md:hidden"
           >
-            {navLinks.map((link) => (
+            {isHome && navLinks.map((link) => (
               <button
                 key={link.href}
                 onClick={() => scrollTo(link.href)}
@@ -84,6 +102,22 @@ export function Navbar() {
                 {link.label}
               </button>
             ))}
+            {!isHome && (
+              <Link
+                href="/"
+                className="block w-full text-left px-4 py-3 text-sm rounded-xl hover:bg-secondary transition-colors"
+                onClick={() => setMobileOpen(false)}
+              >
+                Home
+              </Link>
+            )}
+            <Link
+              href="/blog"
+              className="block w-full text-left px-4 py-3 text-sm rounded-xl hover:bg-secondary transition-colors"
+              onClick={() => setMobileOpen(false)}
+            >
+              Blog
+            </Link>
           </motion.div>
         )}
       </AnimatePresence>

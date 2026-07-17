@@ -224,8 +224,8 @@ export const projects: Project[] = [
     tags: ['Arduino', 'C', 'IoT', 'MQTT'],
     gradient: 'from-sky-500/30 via-blue-500/30 to-indigo-500/30',
     image: '/projects/placeholder-1.jpg',
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://github.com/akhilboss118-an/iot-sense',
+    githubUrl: 'https://github.com/akhilboss118-an/iot-sense',
     featured: true,
   },
   {
@@ -237,8 +237,8 @@ export const projects: Project[] = [
     tags: ['Python', 'Game Loop', 'Physics', '2D'],
     gradient: 'from-emerald-500/30 via-teal-500/30 to-cyan-500/30',
     image: '/projects/placeholder-2.jpg',
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://github.com/akhilboss118-an/pixel-playground',
+    githubUrl: 'https://github.com/akhilboss118-an/pixel-playground',
   },
   {
     id: 'ai-study-buddy',
@@ -249,8 +249,8 @@ export const projects: Project[] = [
     tags: ['JavaScript', 'AI', 'Web', 'NLP'],
     gradient: 'from-purple-500/30 via-pink-500/30 to-rose-500/30',
     image: '/projects/placeholder-3.jpg',
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://github.com/akhilboss118-an/ai-study-buddy',
+    githubUrl: 'https://github.com/akhilboss118-an/ai-study-buddy',
     caseStudyUrl: '#',
   },
   {
@@ -262,8 +262,8 @@ export const projects: Project[] = [
     tags: ['Arduino', 'Embedded C', 'Bluetooth', 'Sensors'],
     gradient: 'from-orange-500/30 via-amber-500/30 to-yellow-500/30',
     image: '/projects/placeholder-4.jpg',
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://github.com/akhilboss118-an/arduino-automation',
+    githubUrl: 'https://github.com/akhilboss118-an/arduino-automation',
   },
   {
     id: 'web-experiments',
@@ -274,8 +274,8 @@ export const projects: Project[] = [
     tags: ['HTML', 'CSS', 'JavaScript', 'Responsive'],
     gradient: 'from-rose-500/30 via-pink-500/30 to-fuchsia-500/30',
     image: '/projects/placeholder-5.jpg',
-    liveUrl: '#',
-    githubUrl: '#',
+    liveUrl: 'https://github.com/akhilboss118-an/web-experiments',
+    githubUrl: 'https://github.com/akhilboss118-an/web-experiments',
   },
   {
     id: 'portfolio-website',
@@ -324,8 +324,8 @@ export const blogPosts: BlogPost[] = [
 export const socialLinks: SocialLink[] = [
   { name: 'GitHub', url: 'https://github.com/akhilboss118-an', icon: 'Github' },
   { name: 'LinkedIn', url: 'https://linkedin.com/in/akhilboss118-an', icon: 'Linkedin' },
-  { name: 'Email', url: 'mailto:akhil@example.com', icon: 'Mail' },
-  { name: 'Instagram', url: 'https://instagram.com', icon: 'Instagram' },
+  { name: 'Email', url: 'mailto:akhilboss118@gmail.com', icon: 'Mail' },
+  { name: 'Instagram', url: 'https://instagram.com/akhilboss118', icon: 'Instagram' },
 ]
 
 export const projectFilterCategories: Project['category'][] = [

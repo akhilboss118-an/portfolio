@@ -1,5 +1,6 @@
 'use client'
 
+import { SmoothScroll } from '@/components/layout/SmoothScroll'
 import { ThemeProvider } from '@/components/layout/ThemeProvider'
 import { LoadingScreen } from '@/components/layout/LoadingScreen'
 import { CustomCursor } from '@/components/layout/CustomCursor'
@@ -25,6 +26,7 @@ import { Terminal } from '@/components/sections/Terminal'
 export default function Home() {
   return (
     <ThemeProvider>
+      <SmoothScroll>
       <LoadingScreen />
       <CustomCursor />
 
@@ -54,6 +56,7 @@ export default function Home() {
         <Footer />
         <Terminal />
       </div>
+      </SmoothScroll>
     </ThemeProvider>
   )
 }
