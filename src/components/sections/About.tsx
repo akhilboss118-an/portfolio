@@ -17,11 +17,12 @@ function ProfilePhoto({ className }: { className?: string }) {
           alt="Bandi Akhil Durga Prasad watching a sunset"
           fill
           sizes="(max-width: 768px) 16rem, 20rem"
-          className="object-cover object-top"
+          className="object-cover"
+          style={{ objectPosition: 'center 40%' }}
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-sky-500/25 via-transparent to-blue-600/20 mix-blend-color" />
-        <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/20 via-transparent to-transparent" />
         <div className="absolute inset-0 rounded-full ring-1 ring-inset ring-sky-400/20" />
       </div>
       <div className="absolute -inset-4 rounded-full border border-sky-400/10 animate-float-slow" style={{ animationDelay: '-2s' }} />
