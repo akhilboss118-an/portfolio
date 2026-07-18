@@ -35,7 +35,7 @@ export function Navbar() {
       >
         <div className="glass-light rounded-2xl px-4 md:px-6 h-14 md:h-16 flex items-center justify-between">
           <button onClick={() => scrollTo('#home')} className="text-sm font-semibold tracking-tight">
-            ADP
+            BADP
           </button>
 
           <div className="hidden md:flex items-center gap-1">

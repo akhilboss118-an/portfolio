@@ -4,7 +4,7 @@ import { blogPosts } from '@/lib/constants'
 import { cn, formatDate } from '@/lib/utils'
 
 export const metadata = {
-  title: 'Blog | Akhil Durga Prasad',
+  title: 'Blog | Bandi Akhil Durga Prasad',
   description: 'Thoughts on embedded systems, AI, game development, and building things.',
 }
 

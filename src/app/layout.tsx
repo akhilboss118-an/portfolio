@@ -15,10 +15,11 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Akhil Durga Prasad | Embedded Systems Engineer & AI Explorer',
+  title: 'Bandi Akhil Durga Prasad | Embedded Systems Engineer & AI Explorer',
   description:
-    'Portfolio of Akhil Durga Prasad — Embedded Systems Engineer, IoT Enthusiast, Game Developer, and AI Explorer. Building at the intersection of hardware and intelligence.',
+    'Portfolio of Bandi Akhil Durga Prasad — Embedded Systems Engineer, IoT Enthusiast, Game Developer, and AI Explorer. Building at the intersection of hardware and intelligence.',
   keywords: [
+    'Bandi Akhil Durga Prasad',
     'Akhil Durga Prasad',
     'Embedded Systems',
     'IoT',
@@ -28,9 +29,9 @@ export const metadata: Metadata = {
     'ANITS',
     'ECE',
   ],
-  authors: [{ name: 'Akhil Durga Prasad' }],
+  authors: [{ name: 'Bandi Akhil Durga Prasad' }],
   openGraph: {
-    title: 'Akhil Durga Prasad | Embedded Systems Engineer',
+    title: 'Bandi Akhil Durga Prasad | Embedded Systems Engineer',
     description:
       'Embedded Systems Engineer, IoT Enthusiast, Game Developer, and AI Explorer.',
     type: 'website',
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Akhil Durga Prasad',
+    title: 'Bandi Akhil Durga Prasad',
     description:
       'Embedded Systems Engineer, IoT Enthusiast, Game Developer, and AI Explorer.',
   },

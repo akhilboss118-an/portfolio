@@ -22,7 +22,7 @@ export function Footer() {
 
         <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
           <div className="text-center md:text-left">
-            <p className="text-sm font-semibold">AKHIL DURGA PRASAD</p>
+            <p className="text-sm font-semibold">BANDI AKHIL DURGA PRASAD</p>
             <p className="text-xs text-muted-foreground mt-1">
               Embedded Systems Engineer & AI Explorer
             </p>
@@ -45,7 +45,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 text-center text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Akhil Durga Prasad. Crafted with precision.</p>
+          <p>© {new Date().getFullYear()} Bandi Akhil Durga Prasad. Crafted with precision.</p>
         </div>
       </div>
     </footer>

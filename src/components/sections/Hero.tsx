@@ -46,7 +46,7 @@ export function Hero() {
             </motion.div>
 
             <AnimatedText
-              text="AKHIL DURGA PRASAD"
+              text="BANDI AKHIL DURGA PRASAD"
               className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-none"
               delay={0.4}
             />
