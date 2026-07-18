@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ExternalLink, FileText } from 'lucide-react'
 import { GithubIcon } from '@/components/ui/icons'
@@ -73,11 +74,16 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
     <SectionReveal delay={index * 0.1}>
       <TiltCard tiltDegree={4}>
         <div className="glass rounded-2xl overflow-hidden group h-full flex flex-col">
-          <div className={cn('relative h-48 overflow-hidden', project.gradient)}>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-3xl font-bold text-white/10 select-none">{project.title.charAt(0)}</div>
-            </div>
-            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-500 flex items-center justify-center gap-3 opacity-0 group-hover:opacity-100">
+          <div className="relative h-48 overflow-hidden">
+            <Image
+              src={project.image}
+              alt={project.title}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              className="object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+            <div className={cn('absolute inset-0 bg-gradient-to-br mix-blend-overlay', project.gradient)} />
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-colors duration-500 flex items-center justify-center gap-3 opacity-0 group-hover:opacity-100">
               {project.liveUrl && (
                 <a href={project.liveUrl} className="w-10 h-10 rounded-full bg-white/10 backdrop-blur flex items-center justify-center hover:bg-white/20 transition-colors">
                   <ExternalLink className="w-4 h-4" />

@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { SectionReveal } from '@/components/animations/SectionReveal'
 import { gallery } from '@/lib/constants'
 import { cn } from '@/lib/utils'
@@ -40,8 +41,15 @@ function GalleryTile({ item, index }: { item: typeof gallery[0]; index: number }
           heights[index % heights.length]
         )}
       >
-        <div className={cn('absolute inset-0', item.gradient)} />
-        <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-500" />
+        <Image
+          src={item.image}
+          alt={item.title}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
+        />
+        <div className={cn('absolute inset-0 bg-gradient-to-br mix-blend-overlay', item.gradient)} />
+        <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors duration-500" />
         <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
           <p className="text-white font-semibold text-lg">{item.title}</p>
           <p className="text-white/60 text-sm">{item.category}</p>

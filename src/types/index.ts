@@ -80,6 +80,7 @@ export interface GalleryItem {
   title: string
   category: string
   gradient: string
+  image: string
 }
 
 export interface BlogPost {
