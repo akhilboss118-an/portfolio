@@ -60,7 +60,7 @@ export const skills: Skill[] = [
   { name: 'AI-assisted Dev', category: 'AI', icon: 'Brain' },
   { name: 'Machine Learning', category: 'AI', icon: 'Brain' },
   { name: 'Prompt Engineering', category: 'AI', icon: 'MessageSquare' },
-  { name: 'Mobile Gaming', category: 'Creative & Media', icon: 'Gamepad' },
+  { name: 'Mobile Gaming', category: 'Creative & Media', icon: 'Gamepad2' },
   { name: 'Video Editing (CapCut)', category: 'Creative & Media', icon: 'Video' },
   { name: 'Pencil & Pen Sketches', category: 'Creative & Media', icon: 'Palette' },
   { name: 'Mandalas & Outlines', category: 'Creative & Media', icon: 'PenTool' },
@@ -278,7 +278,7 @@ export const projects: Project[] = [
     category: 'Games',
     tags: ['Mobile Gaming', 'Tactics', 'Esports', 'Reflexes'],
     gradient: 'from-emerald-500/30 via-teal-500/30 to-sky-500/30',
-    image: '/gallery/mandala-art.png',
+    image: '/gallery/mobile-gaming.png',
     featured: true,
   },
   {

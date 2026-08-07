@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import {
   Code2, FileJson, FileCode, Database, Gamepad2, Cpu, Wifi, Zap,
   Brain, MessageSquare, Eye, GitBranch, Terminal, Server, Globe,
-  Video, Palette, PenTool, Gamepad,
+  Video, Palette, PenTool, Gamepad, Smartphone, Crosshair, Trophy,
 } from 'lucide-react'
 import { GithubIcon } from '@/components/ui/icons'
 import { SectionReveal } from '@/components/animations/SectionReveal'
@@ -17,7 +17,7 @@ import { cn } from '@/lib/utils'
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Code2, FileJson, FileCode, Database, Gamepad2, Cpu, Wifi, Zap,
   Brain, MessageSquare, Eye, GitBranch, Terminal, Server, Globe,
-  Video, Palette, PenTool, Gamepad,
+  Video, Palette, PenTool, Gamepad: Gamepad2, Smartphone, Crosshair, Trophy,
 }
 
 const categories: SkillCategory[] = ['Programming', 'Game Development', 'Embedded Systems', 'AI', 'Tools', 'Creative & Media']
