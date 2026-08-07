@@ -41,6 +41,8 @@ export interface Project {
 
 export type ProjectCategory =
   | 'All'
+  | 'Creative'
+  | 'Media'
   | 'AI'
   | 'IoT'
   | 'Embedded'

@@ -74,6 +74,30 @@ export const skills: Skill[] = [
 
 export const timeline: TimelineItem[] = [
   {
+    year: '2022 - 2023',
+    title: 'Pencil & Pen Sketches & Mandalas',
+    subtitle: 'Fine Visual Arts',
+    description:
+      'Discovered my passion for hand-drawn art, creating intricate mandalas, precise line work, and detailed pencil & pen sketches.',
+    type: 'learning',
+  },
+  {
+    year: '2023 - 2024',
+    title: 'Mobile Gaming & Strategic Thinking',
+    subtitle: 'Competitive Play',
+    description:
+      'Honed fast reflexes, spatial awareness, and team communication through competitive mobile gaming.',
+    type: 'learning',
+  },
+  {
+    year: '2024 - 2025',
+    title: 'CapCut Video Editing & Creative Media',
+    subtitle: 'Visual Content Creation',
+    description:
+      'Mastered video editing using CapCut, crafting dynamic edits with custom transitions, audio sync, and visual effects.',
+    type: 'learning',
+  },
+  {
     year: '2025',
     title: 'Started Exploring Embedded Systems & IoT',
     subtitle: 'Discovery Phase',
@@ -225,6 +249,39 @@ export const gallery: GalleryItem[] = [
 
 export const projects: Project[] = [
   {
+    id: 'pencil-sketches-mandalas',
+    title: 'Pencil & Pen Sketches & Mandalas',
+    description:
+      'Fine visual art collection featuring hand-drawn pencil portraits, detailed ink pen outlines, and intricate symmetrical mandalas crafted with precision.',
+    category: 'Creative',
+    tags: ['Sketches', 'Mandalas', 'Pen Art', 'Symmetry'],
+    gradient: 'from-amber-500/30 via-orange-500/30 to-rose-500/30',
+    image: '/gallery/sketch-art.png',
+    featured: true,
+  },
+  {
+    id: 'capcut-video-portfolio',
+    title: 'CapCut Video Editing & Motion Media',
+    description:
+      'Dynamic video editing showcase created with CapCut — featuring rhythmic sync to beat tracks, kinetic transitions, keyframe animation, and video color grading.',
+    category: 'Media',
+    tags: ['CapCut', 'Video Editing', 'Transitions', 'Color Grading'],
+    gradient: 'from-blue-500/30 via-indigo-500/30 to-purple-500/30',
+    image: '/gallery/video-editing.png',
+    featured: true,
+  },
+  {
+    id: 'mobile-gaming-tactics',
+    title: 'Mobile Gaming & Strategic Gameplay',
+    description:
+      'Tactical esports and competitive mobile gaming expertise — applying fast reflexes, map awareness, decision-making, and team strategy.',
+    category: 'Games',
+    tags: ['Mobile Gaming', 'Tactics', 'Esports', 'Reflexes'],
+    gradient: 'from-emerald-500/30 via-teal-500/30 to-sky-500/30',
+    image: '/gallery/mandala-art.png',
+    featured: true,
+  },
+  {
     id: 'iot-sense',
     title: 'IoT Sense',
     description:
@@ -339,6 +396,8 @@ export const socialLinks: SocialLink[] = [
 
 export const projectFilterCategories: Project['category'][] = [
   'All',
+  'Creative',
+  'Media',
   'AI',
   'IoT',
   'Embedded',
