@@ -34,9 +34,9 @@ function ProfilePhoto({ className }: { className?: string }) {
 export function About() {
   const story = [
     "I chase experience, not a title.",
-    "I'm an ECE student who enjoys exploring technology without limiting myself to one field.",
+    "I'm an ECE student who enjoys exploring technology and creative arts without limiting myself to one field.",
     "From embedded systems and IoT to software, AI, game development, and web technologies — every project is an opportunity to experiment, solve problems, and learn something new.",
-    "Whether it's designing hardware, developing software, debugging with AI, or building complete products — I enjoy the process of turning ideas into reality.",
+    "Beyond technical engineering, I express creativity through pencil & pen sketches, intricate mandalas, mobile gaming, and video editing with CapCut — bringing design sense and focus to everything I build.",
   ]
 
   return (

@@ -15,6 +15,7 @@ export type SkillCategory =
   | 'Embedded Systems'
   | 'AI'
   | 'Tools'
+  | 'Creative & Media'
 
 export interface TimelineItem {
   year: string

@@ -35,7 +35,9 @@ export const rotatingSubtitles: string[] = [
   'Electronics & Communication Engineer',
   'Embedded Systems Explorer',
   'IoT Enthusiast',
-  'Game Developer',
+  'Game Developer & Mobile Gamer',
+  'Sketch Artist & Mandala Creator',
+  'Video Editor (CapCut)',
   'AI-assisted Builder',
 ]
 
@@ -58,6 +60,10 @@ export const skills: Skill[] = [
   { name: 'AI-assisted Dev', category: 'AI', icon: 'Brain' },
   { name: 'Machine Learning', category: 'AI', icon: 'Brain' },
   { name: 'Prompt Engineering', category: 'AI', icon: 'MessageSquare' },
+  { name: 'Mobile Gaming', category: 'Creative & Media', icon: 'Gamepad' },
+  { name: 'Video Editing (CapCut)', category: 'Creative & Media', icon: 'Video' },
+  { name: 'Pencil & Pen Sketches', category: 'Creative & Media', icon: 'Palette' },
+  { name: 'Mandalas & Outlines', category: 'Creative & Media', icon: 'PenTool' },
   { name: 'VS Code', category: 'Tools', icon: 'Terminal' },
   { name: 'GitHub', category: 'Tools', icon: 'Github' },
   { name: 'Git', category: 'Tools', icon: 'GitBranch' },
@@ -207,8 +213,11 @@ export const certificates: Certificate[] = [
 
 export const gallery: GalleryItem[] = [
   { title: 'Arduino Sensor Setup', category: 'IoT', gradient: 'from-sky-500/20 to-blue-600/20', image: '/gallery/arduino-setup.png' },
+  { title: 'Pencil & Pen Sketch Art', category: 'Art', gradient: 'from-amber-500/20 to-orange-600/20', image: '/gallery/sketch-art.png' },
   { title: 'Game Dev Prototype', category: 'Games', gradient: 'from-purple-500/20 to-pink-600/20', image: '/gallery/game-prototype.png' },
+  { title: 'Mandala & Detailed Outlines', category: 'Art', gradient: 'from-pink-500/20 to-rose-600/20', image: '/gallery/mandala-art.png' },
   { title: 'Circuit Design Lab', category: 'Electronics', gradient: 'from-cyan-500/20 to-blue-600/20', image: '/gallery/circuit-lab.png' },
+  { title: 'CapCut Video Edits', category: 'Media', gradient: 'from-blue-500/20 to-indigo-600/20', image: '/gallery/video-editing.png' },
   { title: 'AI Study Tool Demo', category: 'AI', gradient: 'from-orange-500/20 to-red-600/20', image: '/gallery/ai-demo.png' },
   { title: 'Web Dev Experiment', category: 'Web', gradient: 'from-violet-500/20 to-purple-600/20', image: '/gallery/web-experiment.png' },
   { title: 'Hardware Prototype', category: 'Embedded', gradient: 'from-emerald-500/20 to-teal-600/20', image: '/gallery/hardware-prototype.png' },
